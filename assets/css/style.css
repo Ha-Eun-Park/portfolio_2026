@@ -1,0 +1,115 @@
+/* ===== Base ===== */
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #434343;
+	background-color: #f5f5f5;
+	-webkit-font-smoothing: antialiased;
+}
+
+a.resume-link {
+	color: #505050;
+	text-decoration: none;
+}
+a.resume-link:hover {
+	text-decoration: underline;
+}
+
+/* ===== Resume Wrapper ===== */
+.resume-wrapper {
+	max-width: 980px;
+	background: #fff;
+	border-radius: 4px;
+}
+
+/* ===== Header ===== */
+.resume-name {
+	font-size: 2.75rem;
+	font-weight: 900;
+	letter-spacing: 0.15rem;
+	color: #464646;
+	line-height: 1.2;
+}
+
+.resume-tagline {
+	font-size: 1.1rem;
+	font-weight: 300;
+	color: #767676;
+}
+
+.resume-contact {
+	font-size: 0.9rem;
+	color: #767676;
+}
+
+/* ===== Profile Image ===== */
+.resume-profile-image {
+	max-width: 120px;
+}
+
+/* ===== Section Headings ===== */
+.resume-section-heading {
+	font-size: 1.125rem;
+	letter-spacing: 0.15rem;
+	color: #464646;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid #464646;
+}
+
+/* ===== Work Items ===== */
+.item-title {
+	font-size: 1rem;
+	font-weight: 500;
+	color: #434343;
+}
+
+.item-meta {
+	font-size: 0.85rem;
+}
+
+.resume-list {
+	font-size: 0.9rem;
+	padding-left: 1.2rem;
+}
+
+/* ===== Publications ===== */
+.resume-skills-list li {
+	font-size: 0.9rem;
+	color: #505050;
+}
+
+.resume-skills-list p {
+	font-size: 0.85rem;
+	color: #767676;
+	margin-bottom: 12px;
+}
+
+/* ===== Sidebar ===== */
+.resume-degree {
+	font-weight: 500;
+	color: #434343;
+}
+
+.resume-degree-org,
+.resume-degree-time {
+	font-size: 0.85rem;
+}
+
+.resume-lang-list {
+	font-size: 0.9rem;
+}
+
+/* ===== Sections Divider ===== */
+.work-section,
+.project-section,
+.education-section,
+.skills-section {
+	border-bottom: 1px solid #e2e2e2;
+}
+
+/* ===== Footer ===== */
+.resume-footer .resume-social-list a {
+	color: #8f8f8f;
+}
+.resume-footer .resume-social-list a:hover {
+	color: #464646;
+}
