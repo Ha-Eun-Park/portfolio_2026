@@ -46,6 +46,17 @@ a.resume-link:hover {
 	max-width: 120px;
 }
 
+@media (max-width: 767px) {
+	.resume-profile-image {
+		max-width: 100%;
+		width: 100%;
+	}
+	.resume-name {
+		font-size: 1.8rem;
+		letter-spacing: 0.1rem;
+	}
+}
+
 /* ===== Section Headings ===== */
 .resume-section-heading {
 	font-size: 1.125rem;
@@ -99,12 +110,6 @@ a.resume-link:hover {
 }
 
 /* ===== Sections Divider ===== */
-.work-section,
-.project-section,
-.education-section,
-.skills-section {
-	border-bottom: 1px solid #e2e2e2;
-}
 
 /* ===== Footer ===== */
 .resume-footer .resume-social-list a {
