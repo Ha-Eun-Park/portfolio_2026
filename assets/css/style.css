@@ -108,9 +108,12 @@ a.resume-link:hover {
 }
 
 .resume-degree-org,
-.resume-degree-time,
-.resume-degree-gpa {
+.resume-degree-time {
 	font-size: 0.85rem;
+}
+
+.resume-degree-gpa {
+	font-size: 0.75rem;
 }
 
 .resume-lang-list {
